@@ -1,4 +1,6 @@
 // APPRENTISSAGE DU "SMOOTH SCROLL"
+// NE FONCTIONNE PAS !!!
+
 
 // à quoi servent les 3 points devant 'document' ?
 // attribut de propagation qui permettent de développer une expression
@@ -7,6 +9,7 @@ const navLinks = [...document.querySelectorAll('nav a')]
 const sections = [...document.querySelectorAll('section')]
 
 // console.log(navLinks);
+// console.log(sections);
 
 
 let sectionsPosition;
@@ -15,6 +18,7 @@ let sectionsPosition;
 // ON PLACE CES POSITIONS DANS LA VARIABLE "sectionsPosition" QUE L'ON A DECLAREE CI-DESSUS
 function positionCalculation(){
     sectionsPosition = sections.map(section => section.offsetTop);
+    // console.log(sectionsPosition);
 }
 positionCalculation();
 /* REMARQUE :
@@ -25,17 +29,18 @@ du fichier HTML. */
 
 
 
+
 navLinks.forEach(link => link.addEventListener('click', addScrollSmooth));
+// console.log(navLinks);
 /* REMARQUE :
 On appelle les éléments du tableau "navLinks" comme on veut...
 Dans ce cas, on les appelle "link", cela a du sens 
 car on demande d'effectuer une fonction (qu'on appelle addScollSmooth) à chaque fois que l'on clique sur un lien. */
 
 
-
 function addScrollSmooth(e){
     const linkIndex = navLinks.indexOf(e.target);
-    /* console.log(linkIndex); */     /* pourquoi index -1 pour le premier ?? */
+    console.log(linkIndex);      /* pourquoi index -1 pour le premier ?? */
     window.scrollTo({
         top: sectionsPosition[linkIndex],
         behavior: "smooth"

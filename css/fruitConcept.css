@@ -9,7 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     line-height: 1.25;
-    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("pommes03.jpg");
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("../img/pommes03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,19 +22,19 @@ body{
 }
 
 #about{
-    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("groseilles.jpg");
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("../img/groseilles.jpg");
 }
 
 #commandes{
-    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("fruitsRouges.jpg");
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("../img/fruitsRouges.jpg");
 }
 
 #comments{
-    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("raisins.jpg");
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("../img/raisins.jpg");
 }
 
 #contact{
-    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("prunes02.jpg");
+    background-image: linear-gradient(to bottom right, rgba(255,255,255,.6),rgba(255,255,255,.9)), url("../img/prunes02.jpg");
 }
 
 
