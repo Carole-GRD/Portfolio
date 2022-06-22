@@ -485,7 +485,7 @@ h1{
 
 .box-contact{
     position: relative;
-    width: 80vw;
+    width: 70vw;
     top: 50%;  /* A vérifier !!! */
     left: 50%;
     transform: translate(-50%,-50%);
@@ -496,18 +496,30 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    margin-bottom: 25px;
 }
 
 .text-contact{
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 1.3rem;
+    margin: 5px 0;
 }
 
-.text-contact span{
-    background-color: var(--colorPink);
-    border-radius: 5px;
+.text-contact .myTel{
+    position: relative;
+    display: inline;
+    padding: 0 10px;
+}
+
+.text-contact .myTel::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 87.5%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: var(--colorLightPink);
 }
 
 form{
