@@ -74,8 +74,6 @@ nav ul li{
 }
 
 .linkHover:hover{
-    background-color: var(--colorPink);
-    background-color: var(--colorLightBlack);
     background-color: var(--colorBlack);
 }
 
@@ -305,7 +303,7 @@ h1{
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
-    margin: 30px 0;
+    margin-bottom: 30px;
 }
 
 .container-competence{
@@ -450,18 +448,40 @@ h1{
 }
 
 .inner-projects h3{
-    transform: rotate(-45deg);
-    z-index: 1;
+    /* transform: rotate(-45deg); */
+    /* z-index: 1; */
     color: var(--colorBlack);
+    text-align: center;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.inner-projects p{
+    color: var(--colorBlack);
+    text-align: center;
+    width: 300px;
+}
+
+.inner-projects article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imageProject01{
+    height: 200px;
+    background-color: white;
+}
+
+#imageProject02{
+    width: 300px;
 }
 
 .inner-projects img{
-    width: 300px;
+    margin: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px -1px var(--colorLightBlack);
-    z-index: -1;
 }
 
 .inner-projects img:hover{
@@ -473,13 +493,15 @@ h1{
         box-shadow: 10px 10px 10px -1px var(--colorLightBlack);
     }
     50%{
-        /* box-shadow: 10px 10px 10px -1px var(--colorLightPink); */
         box-shadow: 17.5px 17.5px 10px -1px var(--colorLightBlack);
     }
     100%{
         box-shadow: 10px 10px 10px -1px var(--colorLightBlack);
     }
 }
+
+
+
 
 /* =======================  section contact ========================= */
 #contact{
@@ -492,7 +514,7 @@ h1{
 .box-contact{
     position: relative;
     width: 60vw;
-    top: 50%;  /* A vérifier !!! */
+    top: 50%;  
     left: 50%;
     transform: translate(-50%,-50%);
     /* border: 3px solid green; */
@@ -502,19 +524,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-}
-
-.text-contact{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 10px 0 20px;
-}
-
-.text-contact span{
-    text-decoration: underline;
-    text-underline-offset: .4rem;
+    margin-bottom: 30px;
 }
 
 form{
