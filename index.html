@@ -12,12 +12,12 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#home">
+                    
                     <ul>
-                        <li><img src="petitLogoCG.png" alt="Logo Carole Gérard avec un lien qui ramène à la page accueil"></li>
-                        <li class="linkHover">Dev JS FS</li>
+                        <li><a href="#home"><img src="petitLogoCG.png" alt="Logo Carole Gérard avec un lien qui ramène à la page accueil"></a></li>
+                        <li class="linkHover"><a href="#home">Dev JS FS</a></li>
                     </ul>
-                    </a>
+                    
                 </li>
             </ul>
             
@@ -59,10 +59,10 @@
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sequi ex velit fugiat earum labore dolorem minima ullam placeat obcaecati!</p>
                             <input type="submit" name="myCV" id="myCV" value="CV format PDF">
                         </div>
+
                         <div class="aboutRight">
                             <img src="photoCarole.jpg" alt="Photo de Carole Gérard">
                         </div>
-                        
                     </div>
                     <!-- <input type="submit" name="myCV" id="myCV" value="CV format PDF"> -->
                 </div>
@@ -75,99 +75,93 @@
                 <h2>Mes compétences</h2>
                 <div class="container-competence">
 
-                    <article class="computer">
-                        <!-- <h3>Informatiques</h3> -->
+                    <div class="card-computer">
 
-                        <div class="card-computer">
-
-                            <div class="webDesign">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Web Design</h4>
-                                        <img src="iconWebDesign.png" alt="Icone de web design du graphiste ibrandify">
-                                    </div>
-                                    <div class="back">
-                                        <p>HTML5</p>
-                                        <p>CSS3</p>
-                                        <p>Javascript</p>
-                                        <p>Python</p>
-                                        <p>Greensock - GSAP</p>
-                                    </div>
+                        <div class="webDesign">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Web Design</h4>
+                                    <img src="iconWebDesign.png" alt="Icone de web design du graphiste ibrandify">
                                 </div>
-                            </div>
-
-                            <div class="frontEnd">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Front-end</h4>
-                                        <img src="iconFrontEnd.png" alt="Icone d'android du graphiste Swifticons">
-                                    </div>
-                                    <div class="back">
-                                        <p>React</p>        
-                                        <p>Materialize</p>
-                                        <p>Angular</p>
-                                        <p>TypeScript</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="BackEnd">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Back-end</h4>
-                                        <img src="iconAndroid.png" alt="Icone d'android du graphiste Swifticons">
-                                    </div>
-                                    <div class="back">
-                                        <p>Node.js</p>
-                                        <p>Express.js</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="dataBase">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Database</h4>
-                                        <img src="iconDatabase.png" alt="Icone de database du graphiste Smashicons">
-                                    </div>
-                                    <div class="back">
-                                        <p>SQL - MySQL</p>
-                                        <p>NoSQL - MongoDB</p>
-                                    </div>
+                                <div class="back">
+                                    <p>HTML5</p>
+                                    <p>CSS3</p>
+                                    <p>Javascript</p>
+                                    <p>Python</p>
+                                    <p>Greensock - GSAP</p>
                                 </div>
                             </div>
                         </div>
-                    </article>
 
-                    <article class="other">
-                        <!-- <h3>Autres</h3> -->
-                        <div class="card-other">
-                            <div class="collaborative">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Collaboratif</h4>
-                                        <img src="iconCollaborate.png" alt="Icone de collaboration du graphiste ultimatearm">
-                                    </div>
-                                    <div class="back">
-                                        <p>GitHub</p>
-                                        <p>Trello</p>
-                                    </div>
+                        <div class="frontEnd">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Front-end</h4>
+                                    <img src="iconFrontEnd.png" alt="Icone d'android du graphiste Swifticons">
                                 </div>
-                            </div>
-                            <div class="infrastructure">
-                                <div class="centerTextCard">
-                                    <div class="front">
-                                        <h4>Infrastructure</h4>
-                                        <img src="iconInfrastructure.png" alt="Icone d'infrastructure du graphiste Eucalyp">
-                                    </div>
-                                    <div class="back">
-                                        <p>Réseaux</p>
-                                        <p>Système</p>
-                                        <p>Linux</p>
-                                    </div>
+                                <div class="back">
+                                    <p>React</p>        
+                                    <p>Materialize</p>
+                                    <p>Angular</p>
+                                    <p>TypeScript</p>
                                 </div>
                             </div>
                         </div>
-                    </article>
+
+                        <div class="BackEnd">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Back-end</h4>
+                                    <img src="iconAndroid.png" alt="Icone d'android du graphiste Swifticons">
+                                </div>
+                                <div class="back">
+                                    <p>Node.js</p>
+                                    <p>Express.js</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dataBase">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Database</h4>
+                                    <img src="iconDatabase.png" alt="Icone de database du graphiste Smashicons">
+                                </div>
+                                <div class="back">
+                                    <p>SQL - MySQL</p>
+                                    <p>NoSQL - MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collaborative">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Collaboratif</h4>
+                                    <img src="iconCollaborate.png" alt="Icone de collaboration du graphiste ultimatearm">
+                                </div>
+                                <div class="back">
+                                    <p>GitHub</p>
+                                    <p>Trello</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="infrastructure">
+                            <div class="centerTextCard">
+                                <div class="front">
+                                    <h4>Infrastructure</h4>
+                                    <img src="iconInfrastructure.png" alt="Icone d'infrastructure du graphiste Eucalyp">
+                                </div>
+                                <div class="back">
+                                    <p>Réseaux</p>
+                                    <p>Système</p>
+                                    <p>Linux</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -181,7 +175,7 @@
                     <article class="project01">
                         <a href="quizVolley.html" target="_blank">
                             <h3>Quiz</h3>
-                            <img src="quizVolley.jpg" alt="Photo d'un ballon de volley dans un filet">
+                            <img src="quizVolley.jpg" alt="Photo d'un ballon de volley dans un filet" id="imgProject01">
                         </a>
                     </article>
 
@@ -193,11 +187,11 @@
         <section id="contact">
             <div class="box-contact">
                 <h2>Contact</h2>
+                
                 <article class="text-contact">
-                    <p>Contactez-moi au </p> 
-                    <p class="myTel"> 0476/38.47.40 </p> 
-                    <p> ou via le formulaire ci-dessous.</p>
+                    <p>Contactez-moi au <span>0476/38.47.40</span> ou via le formulaire ci-dessous.</p>
                 </article>
+
                 <form action="">
                     <div class="sections">
                         <section class="left">
