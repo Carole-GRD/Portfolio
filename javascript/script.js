@@ -90,6 +90,9 @@ function addScrollSpy(e){
             navLinks[linkIndex].classList.add('styleScrollSpy');
             navLinksLi[linkIndex].classList.add('styleScrollSpy');
         }
+        if (linkIndex == -1){
+            loadStyleHome();
+        }
     }
 }
 
